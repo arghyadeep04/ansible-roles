@@ -1,0 +1,8 @@
+---
+- hosts: demo       #target nodes
+  user: ansible     #which user will do tasks
+  become: yes       #become sudo
+  connection: ssh   #connection type to be used
+  gather_facts: yes #show collected facts
+  roles:
+    - webserver

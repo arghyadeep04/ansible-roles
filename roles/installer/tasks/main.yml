@@ -1,0 +1,2 @@
+- name: install '{{program}}'
+  action: yum pkg='{{program}}' state=present
