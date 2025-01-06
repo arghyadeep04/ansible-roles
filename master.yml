@@ -5,4 +5,4 @@
   connection: ssh   #connection type to be used
   gather_facts: yes #show collected facts
   roles:
-    - webserver
+    - installer
